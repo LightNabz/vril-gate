@@ -19,7 +19,7 @@ export default function Home() {
       </div>
       <h1 className="text-5xl font-extrabold text-center glow mb-4">VRIL GATE</h1>
       <p className="text-center max-w-xl mb-8 text-lg">
-        Dare to enter the Hollow Earth? Let your face decide. The ancient Vril awaits... if you're worthy.
+        Dare to enter the Hollow Earth? Let your face decide. The ancient Vril awaits... if you&apos;re worthy.
       </p>
       <Link href="/scan">
         <button className="bg-purple-700 hover:bg-purple-800 transition-colors px-6 py-3 rounded-2xl text-lg font-semibold shadow-lg">
