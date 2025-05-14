@@ -97,6 +97,8 @@ export default function ScanPage() {
             src="/blacksun.png"
             alt="Spinning Black Sun"
             className="w-[90vmin] opacity-10 animate-spin-slow"
+            width={1440}
+            height={1440}
         />
         </div>
     </div>

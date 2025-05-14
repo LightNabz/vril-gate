@@ -21,6 +21,8 @@ export default function ResultPage() {
             src="/blacksun.png"
             alt="Spinning Black Sun"
             className="w-[90vmin] opacity-10 animate-spin-slow"
+            width={1440}
+            height={1440}
         />
         </div>
       <h1 className="text-4xl font-extrabold mb-6">
@@ -35,13 +37,15 @@ export default function ResultPage() {
             <p className="text-green-400 text-lg mb-4">
               Your face radiates with ancient Aryan Agarthan essence. The gate opens for you...
             </p>
-            <p className="italic">"Vril has accepted you, billions must drink raw milk."</p>
+            <p className="italic"><p className="italic">&quot;Vril has accepted you, billions must drink raw milk.&quot;</p></p>
             <div className="mt-6">
                 <Image
                     src="/nordic-alien.png"
                     alt="vril"
                     className="rounded-2xl shadow-lg w-[200px] h-auto mx-auto"
                     style={{ filter: 'drop-shadow(0 0 10px rgba(255, 255, 255, 0.5))' }}
+                    width={1440}
+                    height={1440}
                 />
             </div>
           </>
@@ -50,13 +54,15 @@ export default function ResultPage() {
             <p className="text-red-400 text-lg mb-4">
               You lack the divine Aryan symmetry required to enter. The Vril reject you.
             </p>
-            <p className="italic">"Agartha ain&apos;t ur place bud, go back to Thugland."</p>
+            <p className="italic">&quot;Agartha ain&apos;t ur place bud, go back to Thugland.&quot;</p>
             <div className="mt-6">
                 <Image
                     src="/yakub.png"
                     alt="vril"
                     className="rounded-2xl shadow-lg w-[200px] h-auto mx-auto"
                     style={{ filter: 'drop-shadow(0 0 10px rgba(255, 255, 255, 0.5))' }}
+                    width={1440}
+                    height={1440}
                 />
             </div>
           </>

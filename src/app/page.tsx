@@ -13,6 +13,8 @@ export default function Home() {
         src="/blacksun.png"
         alt="Spinning Black Sun"
         className="w-[90vmin] opacity-10 animate-spin-slow"
+        width={1440}
+        height={1440}
       />
       </div>
       <h1 className="text-5xl font-extrabold text-center glow mb-4">VRIL GATE</h1>
