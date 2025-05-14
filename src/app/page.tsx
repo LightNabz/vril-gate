@@ -3,12 +3,13 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-black to-gray-900 text-white p-8">
       <div className="fixed inset-0 z-0 overflow-hidden flex items-center justify-center pointer-events-none opacity-35">
-      <img
+      <Image
         src="/blacksun.png"
         alt="Spinning Black Sun"
         className="w-[90vmin] opacity-10 animate-spin-slow"

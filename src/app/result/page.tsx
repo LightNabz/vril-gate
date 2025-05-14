@@ -3,6 +3,7 @@
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 export default function ResultPage() {
   const params = useSearchParams();
@@ -16,7 +17,7 @@ export default function ResultPage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-white p-6">
         <div className="fixed inset-0 z-0 overflow-hidden flex items-center justify-center pointer-events-none opacity-35">
-        <img
+        <Image
             src="/blacksun.png"
             alt="Spinning Black Sun"
             className="w-[90vmin] opacity-10 animate-spin-slow"
@@ -36,7 +37,7 @@ export default function ResultPage() {
             </p>
             <p className="italic">"Vril has accepted you, billions must drink raw milk."</p>
             <div className="mt-6">
-                <img
+                <Image
                     src="/nordic-alien.png"
                     alt="vril"
                     className="rounded-2xl shadow-lg w-[200px] h-auto mx-auto"
@@ -49,9 +50,9 @@ export default function ResultPage() {
             <p className="text-red-400 text-lg mb-4">
               You lack the divine Aryan symmetry required to enter. The Vril reject you.
             </p>
-            <p className="italic">"Agartha ain't ur place bud, go back to Thugland."</p>
+            <p className="italic">"Agartha ain&apos;t ur place bud, go back to Thugland."</p>
             <div className="mt-6">
-                <img
+                <Image
                     src="/yakub.png"
                     alt="vril"
                     className="rounded-2xl shadow-lg w-[200px] h-auto mx-auto"

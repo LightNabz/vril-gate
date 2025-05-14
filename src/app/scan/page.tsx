@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Webcam from 'react-webcam';
 import * as faceapi from 'face-api.js';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 export default function ScanPage() {
   const webcamRef = useRef<Webcam>(null);
@@ -92,7 +93,7 @@ export default function ScanPage() {
         </>
       )}
         <div className="fixed inset-0 z-0 overflow-hidden flex items-center justify-center pointer-events-none opacity-35">
-        <img
+        <Image
             src="/blacksun.png"
             alt="Spinning Black Sun"
             className="w-[90vmin] opacity-10 animate-spin-slow"
